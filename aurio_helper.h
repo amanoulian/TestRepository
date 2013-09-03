@@ -47,6 +47,8 @@
  
  */
 
+ 
+ //adding some comments to check code change of Git
 #if !defined(__rio_helper_h__)
 #define __rio_helper_h__
 
@@ -65,6 +67,7 @@ extern SInt8 *drawBuffers[];
 int SetupRemoteIO (AudioUnit& inRemoteIOUnit, AURenderCallbackStruct inRenderProcm, CAStreamBasicDescription& outFormat);
 void SilenceData(AudioBufferList *inData);
 
+ //adding some comments to check code change of Git
 class DCRejectionFilter
 {
 public:
@@ -79,6 +82,7 @@ protected:
 	Float32 mY1;
 	Float32 mX1;
 	
+	 //adding some comments to check code change of Git
 	static const Float32 kDefaultPoleDist;
 };
 
